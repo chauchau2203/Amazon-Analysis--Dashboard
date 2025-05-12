@@ -75,20 +75,21 @@ pip install statsmodels
 ## D. Project Structure
 
 ### 1. Data Preparation
-- **Amazon Preparing Data.ipynb**: Contains data cleaning, transformation, and preprocessing steps for the raw datasets (7 files, which are renamed and can be accessed in the Cleaned Dataset Folder).
+- **<a href="https://github.com/chauchau2203/Amazon-Analysis--Dashboard/blob/main/Amazon%20Preparing%20Data.ipynb">Amazon Preparing Data.ipynb</a>**: Contains data cleaning, transformation, and preprocessing steps for the raw datasets (7 files, which are renamed and can be accessed in the Cleaned Dataset Folder).
+
 
 - **Cleaned Dataset Folder**: Contains 7 csv files that is renamed and prepared.
 
 ### 2. EDA data
-- **Amazon EDA.ipynb**: Performs exploratory data analysis (EDA) to uncover key patterns, trends, and insights in sales and inventory data. Includes visualizations, summary statistics, and initial findings that guide further analysis. 
+- **<a href="https://github.com/chauchau2203/Amazon-Analysis--Dashboard/blob/main/Amazon%20EDA.ipynb">Amazon EDA.ipynb</a>**: Performs exploratory data analysis (EDA) to uncover key patterns, trends, and insights in sales and inventory data. Includes visualizations, summary statistics, and initial findings that guide further analysis. 
 
 - After performing EDA, only 3 files were kept for further analysis and visualisation: amazon_sales.csv (Customer Sales table), international_sales.csv (B2B Sales table), inventory_level.csv (Inventory Level table). The remaining files provide some data including expenses, profits from two fulfillment methods, and cross-platform pricing but each only has a few rows, thus uneccessary.
 
 ### 3. Revenue Forecast
-- **Amazon Forecasting Revenue.ipynb**: Contains the revenue forecasting models and time series analysis. This notebook predicts future sales based on historical data and seasonal trends.
+- **<a href="https://github.com/chauchau2203/Amazon-Analysis--Dashboard/blob/main/Amazon%20Forecasting%20Revenue.ipynb">Amazon Forecasting Revenue.ipynb</a>**: Contains the revenue forecasting models and time series analysis. This notebook predicts future sales based on historical data and seasonal trends.
 
 ### 4. Dashboard for visualisation
-- **Amazon Dashboard.pbix**: Develops interactive visualizations and dashboards to present insights dynamically. This dashboard integrates key metrics and charts for stakeholder reporting and decision-making.
+- **<a href="https://github.com/chauchau2203/Amazon-Analysis--Dashboard/blob/main/Amazon%20Dashboard.pbix">Amazon Dashboard.pbix</a>**: Develops interactive visualizations and dashboards to present insights dynamically. This dashboard integrates key metrics and charts for stakeholder reporting and decision-making.
 
 ### 5. Sales Report
 - **Amazon Sales Report.pdf**: A comprehensive report summarizing the key findings, insights, and recommendations derived from the data analysis and dashboard.
