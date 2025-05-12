@@ -18,30 +18,30 @@ This project analyzes the sales performance of Amazon India's clothing segment b
 ## B. Data Sources
 
 ### URL
-The Amazon dataset is from Kaggle: https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data
+The Amazon dataset is from Kaggle: **<a href="https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data">View Dataset</a>**
 
 ### Dataset description
-The dataset provides a comprehensive overview of e-commerce clothing sales data on Amazon India between 2021 and 2022 covering a variety of products. The original dataset contains 7 tables (csv files):
-- File Amazon Sale Report: Records of clothing sales transactions in India through the Amazon platform from April 2022 to June 2022.
+The dataset provides a comprehensive overview of e-commerce clothing sales data on Amazon India between 2021 and 2022 covering a variety of products. The original dataset contains 7 tables:
+- File Amazon Sale Report.csv: Records of clothing sales transactions in India through the Amazon platform from April 2022 to June 2022.
 
-- File Cloud Warehouse Comparison Chart: Records of profits between two fulfillment methods: Shiprocket and INCREFF.
+- File Cloud Warehouse Comparison Chart.csv: Records of profits between two fulfillment methods: Shiprocket and INCREFF.
 
-- File Expense IIGF: Records of financial information on expenses (received amount vs. expenses).
+- File Expense IIGF.csv: Records of financial information on expenses (received amount vs. expenses).
 
-- File International sale Report: Records of clothing sale transactions to other companies (from June 2021 to May 2022).
+- File International sale Report.csv: Records of clothing sale transactions to other companies (from June 2021 to May 2022).
 
-- File May-2022: List of clothing products and their prices on different online platforms (including Ajio, Amazon, Flipkart, Limeroad, Myntra, Paytm, Snapdeal).
+- File May-2022.csv: List of clothing products and their prices on different online platforms (including Ajio, Amazon, Flipkart, Limeroad, Myntra, Paytm, Snapdeal).
 
-- File P & L March 2021: List of clothing products and their prices on different online platforms (including Ajio, Amazon, Flipkart, Limeroad, Myntra, Paytm, Snapdeal).
+- File P & L March 2021.csv: List of clothing products and their prices on different online platforms (including Ajio, Amazon, Flipkart, Limeroad, Myntra, Paytm, Snapdeal).
 
-- Sale Report: List of clothing products (including the SKU, Category, Stock level, Size, Color).
+- Sale Report.csv: List of clothing products (including the SKU, Category, Stock level, Size, Color).
 
 After assessing the files, only **3 tables were used for the analysis**: Customer Sales (originally 'Amazon Sale Report.csv), B2B Sales (originally 'International sale Report.csv'), and Inventory Level (originally 'Sale Report'). The remaining files do not provide sufficient data for the analysis.
 
 ## C. Installation/Setup
 
 ### Prerequisites
-- **Python 3.10.16** or higher. Download from python.org.
+- **Python 3.10.16** or higher. Download [here](https://www.python.org/).
     - Install **statsmodels** package:
     - Install **Jupyter** package.
 ```
@@ -49,7 +49,7 @@ pip install jupyter
 pip install statsmodels
 ```
 
-- **Visual Studio Code (VS Code)**. Download from code.visualstudio.com.
+- **Visual Studio Code (VS Code)**. Download [here](https://code.visualstudio.com/).
 
 - **VS Code Extensions**:
     - Python extension by Microsoft.
@@ -58,7 +58,7 @@ pip install statsmodels
 
 - (Optional but recommended) Use a **virtual environment or Anaconda environment** to manage dependencies and avoid conflicts.
 
-- **Power BI** version used is 2.131.1203.0 32-bit (July 2024) or higher. Download from https://www.microsoft.com/en-us/power-platform/products/power-bi/downloads
+- **Power BI** version used is 2.131.1203.0 32-bit (July 2024) or higher. Download [here](https://www.microsoft.com/en-us/power-platform/products/power-bi/downloads).
 
 ### Environment Setup
 - Open VSCode
@@ -90,7 +90,13 @@ pip install statsmodels
 
 ### 4. Dashboard for visualisation
 - **<a href="https://github.com/chauchau2203/Amazon-Analysis--Dashboard/blob/main/Amazon%20Dashboard.pbix">Amazon Dashboard.pbix</a>**: Develops interactive visualizations and dashboards to present insights dynamically. This dashboard integrates key metrics and charts for stakeholder reporting and decision-making.
-
+    - **Customer Sales Dashboard**:
+![3cacd3a1-506c-4aff-b21d-d60ef6fd7b3e](https://github.com/user-attachments/assets/a7e1be7d-cea9-48cd-a242-0a08ae418251)
+    - **B2B Sales Dashboard**:
+![af431184-8d95-41d4-af4b-2b8475f68a0e](https://github.com/user-attachments/assets/47060d11-8657-4e38-a623-564bd6f8630b)
+    - **Inventory Level Dashboard**:
+ ![fa7d38d6-c496-4da1-8adb-e65c7441badd](https://github.com/user-attachments/assets/5c33f26f-ffbf-48d4-9aaf-fcaa467d587a)
+ 
 ### 5. Sales Report
 - **Amazon Sales Report.pdf**: A comprehensive report summarizing the key findings, insights, and recommendations derived from the data analysis and dashboard.
 
@@ -189,7 +195,7 @@ The project follows a structured, end-to-end data analytics workflow to derive a
 This project and its associated code are licensed under the [MIT License](https://opensource.org/licenses/MIT), which permits free use, modification, and distribution with proper attribution.
 
 **Important:**  
-- The dataset used in this project is sourced from Kaggle and is subject to its own licensing terms. Please refer to the original dataset page ([https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data](https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data)) for specific usage rights and restrictions.  
+- The dataset used in this project is sourced from Kaggle and is subject to its own licensing terms. Please refer to the [original dataset page](https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data) for specific usage rights and restrictions.  
 
 - This project is intended for educational and research purposes only. Commercial use of the dataset or derived insights should comply with the dataset provider’s terms and applicable laws.
 
