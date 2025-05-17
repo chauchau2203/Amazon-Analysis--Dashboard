@@ -22,21 +22,19 @@ The Amazon dataset is from Kaggle: **<a href="https://www.kaggle.com/datasets/th
 
 ### Dataset description
 The dataset provides a comprehensive overview of e-commerce clothing sales data on Amazon India between 2021 and 2022 covering a variety of products. The original dataset contains 7 tables:
-- File Amazon Sale Report.csv: Records of clothing sales transactions in India through the Amazon platform from April 2022 to June 2022.
+- File ***Amazon Sale Report.csv***: Records of clothing sales transactions in India through the Amazon platform from April 2022 to June 2022.
 
-- File Cloud Warehouse Comparison Chart.csv: Records of profits between two fulfillment methods: Shiprocket and INCREFF.
+- File ***Cloud Warehouse Comparison Chart.csv***: Records of profits between two fulfillment methods: Shiprocket and INCREFF.
 
-- File Expense IIGF.csv: Records of financial information on expenses (received amount vs. expenses).
+- File ***Expense IIGF.csv***: Records of financial information on expenses (received amount vs. expenses).
 
-- File International sale Report.csv: Records of clothing sale transactions to other companies (from June 2021 to May 2022).
+- File ***International sale Report.csv***: Records of clothing sale transactions to other companies (from June 2021 to May 2022).
 
-- File May-2022.csv: List of clothing products and their prices on different online platforms (including Ajio, Amazon, Flipkart, Limeroad, Myntra, Paytm, Snapdeal).
+- File ***May-2022.csv***: List of clothing products and their prices on different online platforms (including Ajio, Amazon, Flipkart, Limeroad, Myntra, Paytm, Snapdeal).
 
-- File P & L March 2021.csv: List of clothing products and their prices on different online platforms (including Ajio, Amazon, Flipkart, Limeroad, Myntra, Paytm, Snapdeal).
+- File ***P & L March 2021.csv***: List of clothing products and their prices on different online platforms (including Ajio, Amazon, Flipkart, Limeroad, Myntra, Paytm, Snapdeal).
 
-- Sale Report.csv: List of clothing products (including the SKU, Category, Stock level, Size, Color).
-
-After assessing the files, only **3 tables were used for the analysis**: Customer Sales (originally 'Amazon Sale Report.csv), B2B Sales (originally 'International sale Report.csv'), and Inventory Level (originally 'Sale Report'). The remaining files do not provide sufficient data for the analysis.
+- File ***Sale Report.csv***: List of clothing products (including the SKU, Category, Stock level, Size, Color).
 
 ## C. Installation/Setup
 
@@ -75,18 +73,15 @@ pip install statsmodels
 ## D. Project Structure
 
 ### 1. Data Preparation
-- **<a href="https://github.com/chauchau2203/Amazon-Analysis--Dashboard/blob/main/Amazon%20Preparing%20Data.ipynb">Amazon Preparing Data.ipynb</a>**: Contains data cleaning, transformation, and preprocessing steps for the raw datasets (7 files, which are renamed and can be accessed in the Cleaned Dataset Folder).
+- **<a href="https://github.com/chauchau2203/Amazon-Analysis--Dashboard/blob/main/Amazon%20Preparing%20Data.ipynb">Amazon Preparing Data.ipynb</a>**: Contains data cleaning, transformation, and preprocessing steps for the raw datasets (all 7 files).
 
-
-- **Cleaned Dataset Folder**: Contains 7 csv files that is renamed and prepared.
-
-### 2. EDA data
+### 2. Exploratory Data Analysis (EDA)
 - **<a href="https://github.com/chauchau2203/Amazon-Analysis--Dashboard/blob/main/Amazon%20EDA.ipynb">Amazon EDA.ipynb</a>**: Performs exploratory data analysis (EDA) to uncover key patterns, trends, and insights in sales and inventory data. Includes visualizations, summary statistics, and initial findings that guide further analysis. 
 
-- After performing EDA, only 3 files were kept for further analysis and visualisation: amazon_sales.csv (Customer Sales table), international_sales.csv (B2B Sales table), inventory_level.csv (Inventory Level table). The remaining files provide some data including expenses, profits from two fulfillment methods, and cross-platform pricing but each only has a few rows, thus uneccessary.
+- After performing EDA, only 3 files were kept for further analysis and visualisation: ***[amazon_sales.csv](https://github.com/chauchau2203/Amazon-Analysis--Dashboard/blob/main/amazon_sales.zip) (Customer Sales table)***, ***[international_sales.csv](https://github.com/chauchau2203/Amazon-Analysis--Dashboard/blob/main/international_sales.zip) (B2B Sales table)***, ***[inventory_level.csv](https://github.com/chauchau2203/Amazon-Analysis--Dashboard/blob/main/inventory_level.zip) (Inventory Level table)***. The remaining files provide some data including expenses, profits from two fulfillment methods, and cross-platform pricing but each only has a few rows, thus uneccessary.
 
 ### 3. Revenue Forecast
-- **<a href="https://github.com/chauchau2203/Amazon-Analysis--Dashboard/blob/main/Amazon%20Forecasting%20Revenue.ipynb">Amazon Forecasting Revenue.ipynb</a>**: Contains the revenue forecasting models and time series analysis. This notebook predicts future sales based on historical data and seasonal trends.
+- **<a href="https://github.com/chauchau2203/Amazon-Analysis--Dashboard/blob/main/Amazon%20Forecasting%20Revenue.ipynb">Amazon Forecasting Revenue.ipynb</a>**: Contains the revenue forecasting models and time series analysis ARIMA. This notebook predicts future sales based on historical data and seasonal trends.
 
 ### 4. Dashboard for visualisation
 - **<a href="https://github.com/chauchau2203/Amazon-Analysis--Dashboard/blob/main/Amazon%20Dashboard.pbix">Amazon Dashboard.pbix</a>**: Develops interactive visualizations and dashboards to present insights dynamically. This dashboard integrates key metrics and charts for stakeholder reporting and decision-making.
@@ -105,13 +100,13 @@ pip install statsmodels
 The project follows a structured, end-to-end data analytics workflow to derive actionable insights from Amazon India’s clothing sales data across Customer Sales, B2B Sales, and Inventory Level datasets.
 
 ### 1. Data Collection and Preparation 
-   Raw datasets were imported and consolidated using Python (pandas). Data cleaning included handling missing values, correcting erroneous entries, standardizing formats (e.g., dates, categories), and removing duplicates to ensure data quality and consistency.
+   Raw datasets were imported and consolidated using Python (pandas). Data cleaning included handling missing values, correcting erroneous entries, converting currencies, standardizing formats (e.g., dates, categories), and removing duplicates to ensure data quality and consistency.
 
 ### 2. Exploratory Data Analysis (EDA)
    Comprehensive EDA was performed to uncover sales patterns, customer behavior, and inventory distribution. Key statistical summaries and visualizations were generated to identify seasonality, regional performance, and product preferences.
 
 ### 3. Revenue Forecasting 
-   Time series forecasting model ARIMA was developed using historical sales data to predict future revenue trends. Techniques included moving averages and seasonality adjustments, enabling better inventory and sales planning aligned with demand cycles.
+   Time series forecasting model ARIMA (autoregressive integrated moving average) was developed using historical sales data to predict future revenue trends. Techniques included moving averages and seasonality adjustments, enabling better inventory and sales planning aligned with demand cycles.
 
 ### 4. Dashboard Development
    Cleaned data and key metrics were imported into Power BI to build an interactive dashboard. Dynamic slicers and DAX measures were implemented to allow stakeholders to explore sales by time, region, product category, and customer segment.
@@ -124,42 +119,42 @@ The project follows a structured, end-to-end data analytics workflow to derive a
 ### Customer Sales
 
 - **Sales Trends & Seasonality:**  
-  - April 2022 recorded the highest sales, driven by major Indian festivals and post-pandemic demand recovery.
-  - A consistent decline in both order volume and revenue was observed in May and June, correlating with reduced festive activity and rising inflation.
+  - ***April 2022*** recorded the ***highest sales***, driven by major Indian festivals and post-pandemic demand recovery.
+  - A consistent ***decline in both order volume and revenue*** was observed in ***May and June***, correlating with reduced festive activity and rising inflation.
   - **Visuals:** Line charts of monthly and daily sales trends.
 
 - **Regional Performance:**  
-  - Maharashtra and Karnataka led in total revenue, reflecting their economic strength and higher e-commerce adoption.
-  - Significant revenue concentration in western and southern states, with underrepresentation in eastern and central regions.
+  - ***Maharashtra and Karnataka*** led in total revenue, reflecting their economic strength and higher e-commerce adoption.
+  - ***ignificant revenue concentration*** in ***western and southern states***, with underrepresentation in eastern and central regions.
   - **Visuals:** Revenue heatmap and top 10 states bar chart.
 
 - **Customer Behavior:**  
-  - Peak order and revenue activity occurred on weekends, especially Sundays.
+  - ***Peak order and revenue*** activity occurred on ***weekends***, especially Sundays.
   - Average order value remained stable, indicating consistent purchasing patterns.
   - **Visuals:** Bar charts of revenue and orders by weekday.
 
 ### B2B Sales
 
 - **Customer Segmentation:**  
-  - Revenue is highly concentrated among a few key business customers, with the top 5 accounting for a significant share.
+  - Revenue is ***highly concentrated among a few key business customers***, with the top 5 accounting for a significant share.
   - The majority of customers are small or mid-sized businesses, each contributing modest revenue but representing future growth potential.
   - **Visuals:** Pareto chart of revenue by customer, segmentation donut chart.
 
 - **Sales Cycles & Seasonality:**  
-  - Notable revenue peaks in October 2021 (festival season) and March 2022 (spring/summer collection launches).
-  - Sharp drop in May 2022 is attributed to only partial data for the month.
+  - Notable ***revenue peaks in October 2021*** (festival season) and ***March 2022*** (spring/summer collection launches).
+  - ***Sharp drop in May 2022*** is attributed to only partial data for the month.
   - **Visuals:** Monthly revenue and order trend lines.
 
 - **Order Patterns:**  
-  - Thursday is the highest revenue weekday for B2B sales, while Sunday activity is minimal, reflecting standard business procurement cycles.
+  - ***Thursday*** is the ***highest revenue weekday*** for B2B sales, while ***Sunday*** activity is ***minimal***, reflecting standard business procurement cycles.
   - **Visuals:** Bar chart of revenue by weekday.
 
 
 ### Inventory Level
 
 - **Category Distribution:**  
-  - Inventory is heavily concentrated in ethnic wear, with Kurtas and Kurta Sets comprising over 70% of total stock.
-  - Bottom wear and western categories are underrepresented, suggesting potential missed opportunities.
+  - Inventory is heavily ***concentrated in ethnic wear***, with Kurtas and Kurta Sets comprising over 70% of total stock.
+  - ***Bottom wear and western categories*** are ***underrepresented***, suggesting potential missed opportunities.
   - **Visuals:** Pie chart of stock by category.
 
 - **Color and Size Distribution:**  
@@ -168,7 +163,7 @@ The project follows a structured, end-to-end data analytics workflow to derive a
   - **Visuals:** Bar charts of stock by color and by size.
 
 - **Inventory Optimization Opportunities:**  
-  - Imbalances between sales trends and stock levels highlight areas for rebalancing, particularly increasing investment in fast-moving sizes and colors, and reducing overstock in slow-moving categories.
+  - ***Imbalances between sales trends and stock levels*** highlight areas for rebalancing, particularly increasing investment in fast-moving sizes and colors, and reducing overstock in slow-moving categories.
   - **Visuals:** Comparative charts of sales vs. inventory by category and size.
 
 
