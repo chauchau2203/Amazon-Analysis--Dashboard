@@ -98,7 +98,7 @@ pip install statsmodels
  ![fa7d38d6-c496-4da1-8adb-e65c7441badd](https://github.com/user-attachments/assets/5c33f26f-ffbf-48d4-9aaf-fcaa467d587a)
  
 ### 5. Sales Report
-- **Amazon Sales Report.pdf**: A comprehensive report summarizing the key findings, insights, and recommendations derived from the data analysis and dashboard.
+- **[Amazon Sales Report.pdf](https://github.com/chauchau2203/Amazon-Analysis--Dashboard/blob/main/Amazon%20Sales%20Report-compressed.pdf)**: A comprehensive report summarizing the key findings, insights, and recommendations derived from the data analysis and dashboard.
 
 ## E. Methodology
 
