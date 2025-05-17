@@ -121,33 +121,27 @@ The project follows a structured, end-to-end data analytics workflow to derive a
 - **Sales Trends & Seasonality:**  
   - ***April 2022*** recorded the ***highest sales***, driven by major Indian festivals and post-pandemic demand recovery.
   - A consistent ***decline in both order volume and revenue*** was observed in ***May and June***, correlating with reduced festive activity and rising inflation.
-  - **Visuals:** Line charts of monthly and daily sales trends.
 
 - **Regional Performance:**  
   - ***Maharashtra and Karnataka*** led in total revenue, reflecting their economic strength and higher e-commerce adoption.
   - ***ignificant revenue concentration*** in ***western and southern states***, with underrepresentation in eastern and central regions.
-  - **Visuals:** Revenue heatmap and top 10 states bar chart.
 
 - **Customer Behavior:**  
   - ***Peak order and revenue*** activity occurred on ***weekends***, especially Sundays.
   - Average order value remained stable, indicating consistent purchasing patterns.
-  - **Visuals:** Bar charts of revenue and orders by weekday.
 
 ### B2B Sales
 
 - **Customer Segmentation:**  
   - Revenue is ***highly concentrated among a few key business customers***, with the top 5 accounting for a significant share.
   - The majority of customers are small or mid-sized businesses, each contributing modest revenue but representing future growth potential.
-  - **Visuals:** Pareto chart of revenue by customer, segmentation donut chart.
 
 - **Sales Cycles & Seasonality:**  
   - Notable ***revenue peaks in October 2021*** (festival season) and ***March 2022*** (spring/summer collection launches).
   - ***Sharp drop in May 2022*** is attributed to only partial data for the month.
-  - **Visuals:** Monthly revenue and order trend lines.
 
 - **Order Patterns:**  
   - ***Thursday*** is the ***highest revenue weekday*** for B2B sales, while ***Sunday*** activity is ***minimal***, reflecting standard business procurement cycles.
-  - **Visuals:** Bar chart of revenue by weekday.
 
 
 ### Inventory Level
@@ -155,16 +149,13 @@ The project follows a structured, end-to-end data analytics workflow to derive a
 - **Category Distribution:**  
   - Inventory is heavily ***concentrated in ethnic wear***, with Kurtas and Kurta Sets comprising over 70% of total stock.
   - ***Bottom wear and western categories*** are ***underrepresented***, suggesting potential missed opportunities.
-  - **Visuals:** Pie chart of stock by category.
 
 - **Color and Size Distribution:**  
   - Core colors (Black, Blue, Pink) and standard sizes (S, M, L, XL, XXL) dominate inventory allocation.
   - Extended sizes (3XL–6XL) and specialty colors have minimal stock, indicating limited focus on plus-size and niche segments.
-  - **Visuals:** Bar charts of stock by color and by size.
 
 - **Inventory Optimization Opportunities:**  
   - ***Imbalances between sales trends and stock levels*** highlight areas for rebalancing, particularly increasing investment in fast-moving sizes and colors, and reducing overstock in slow-moving categories.
-  - **Visuals:** Comparative charts of sales vs. inventory by category and size.
 
 
 **For visual references, see the included Power BI dashboard and the Amazon Sales Report PDF.**
