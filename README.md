@@ -176,14 +176,11 @@ The project follows a structured, end-to-end data analytics workflow to derive a
 
 - **Evaluate Impact of Marketing Campaigns:** Incorporate marketing spend and campaign data to assess their effectiveness on sales and customer acquisition.
 
-## H. License
-
-This project and its associated code are licensed under the [MIT License](https://opensource.org/licenses/MIT), which permits free use, modification, and distribution with proper attribution.
 
 **Important:**  
 - The dataset used in this project is sourced from Kaggle and is subject to its own licensing terms. Please refer to the [original dataset page](https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data) for specific usage rights and restrictions.  
 
 - This project is intended for educational and research purposes only. Commercial use of the dataset or derived insights should comply with the dataset provider’s terms and applicable laws.
 
-By using or distributing this project, you agree to comply with the licenses of all included materials.
+
 
