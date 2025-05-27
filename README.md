@@ -5,15 +5,15 @@ This project analyzes the sales performance of Amazon India's clothing segment b
 
 ### Objectives
 
-* To evaluate sales patterns across different customer segments and business channels (B2C and B2B).
+* To evaluate **sales patterns** across different customer segments and business channels (B2C and B2B).
 
-* To analyze inventory distribution and optimize stock levels based on demand and product attributes such as category, size, and color.
+* To analyze **inventory distribution** and optimize stock levels based on demand and product attributes such as category, size, and color.
 
-* To identify top-performing products, regions, and customer groups to inform marketing and operational strategies.
+* To identify **top-performing** products, regions, and customer groups to inform marketing and operational strategies.
 
-* To understand temporal sales trends, including seasonality and weekday effects, to improve forecasting and planning.
+* To understand **temporal sales trends**, including seasonality and weekday effects, to improve forecasting and planning.
 
-* To provide recommendations for inventory management, customer retention, and revenue growth based on comprehensive data analysis.
+* To provide **recommendations** for inventory management, customer retention, and revenue growth based on comprehensive data analysis.
 
 ## B. Data Sources
 
@@ -119,43 +119,43 @@ The project follows a structured, end-to-end data analytics workflow to derive a
 ### Customer Sales
 
 - **Sales Trends & Seasonality:**  
-  - ***April 2022*** recorded the ***highest sales***, driven by major Indian festivals and post-pandemic demand recovery.
-  - A consistent ***decline in both order volume and revenue*** was observed in ***May and June***, correlating with reduced festive activity and rising inflation.
+  - **April 2022** recorded the **highest sales**, driven by major Indian festivals and post-pandemic demand recovery.
+  - A consistent **decline in both order volume and revenue** was observed in **May and June**, correlating with reduced festive activity and rising inflation.
 
 - **Regional Performance:**  
-  - ***Maharashtra and Karnataka*** led in total revenue, reflecting their economic strength and higher e-commerce adoption.
-  - ***ignificant revenue concentration*** in ***western and southern states***, with underrepresentation in eastern and central regions.
+  - **Maharashtra and Karnataka** led in total revenue, reflecting their economic strength and higher e-commerce adoption.
+  - **ignificant revenue concentration** in **western and southern states**, with underrepresentation in eastern and central regions.
 
 - **Customer Behavior:**  
-  - ***Peak order and revenue*** activity occurred on ***weekends***, especially Sundays.
+  - **Peak order and revenue** activity occurred on **weekends**, especially Sundays.
   - Average order value remained stable, indicating consistent purchasing patterns.
 
 ### B2B Sales
 
 - **Customer Segmentation:**  
-  - Revenue is ***highly concentrated among a few key business customers***, with the top 5 accounting for a significant share.
+  - Revenue is **highly concentrated among a few key business customers**, with the top 5 accounting for a significant share.
   - The majority of customers are small or mid-sized businesses, each contributing modest revenue but representing future growth potential.
 
 - **Sales Cycles & Seasonality:**  
-  - Notable ***revenue peaks in October 2021*** (festival season) and ***March 2022*** (spring/summer collection launches).
-  - ***Sharp drop in May 2022*** is attributed to only partial data for the month.
+  - Notable **revenue peaks in October 2021** (festival season) and **March 2022** (spring/summer collection launches).
+  - **Sharp drop in May 2022** is attributed to only partial data for the month.
 
 - **Order Patterns:**  
-  - ***Thursday*** is the ***highest revenue weekday*** for B2B sales, while ***Sunday*** activity is ***minimal***, reflecting standard business procurement cycles.
+  - **Thursday** is the **highest revenue weekday** for B2B sales, while **Sunday** activity is **minimal**, reflecting standard business procurement cycles.
 
 
 ### Inventory Level
 
 - **Category Distribution:**  
-  - Inventory is heavily ***concentrated in ethnic wear***, with Kurtas and Kurta Sets comprising over 70% of total stock.
-  - ***Bottom wear and western categories*** are ***underrepresented***, suggesting potential missed opportunities.
+  - Inventory is heavily **concentrated in ethnic wear**, with Kurtas and Kurta Sets comprising over 70% of total stock.
+  - **Bottom wear and western categories** are **underrepresente***, suggesting potential missed opportunities.
 
 - **Color and Size Distribution:**  
   - Core colors (Black, Blue, Pink) and standard sizes (S, M, L, XL, XXL) dominate inventory allocation.
   - Extended sizes (3XL–6XL) and specialty colors have minimal stock, indicating limited focus on plus-size and niche segments.
 
 - **Inventory Optimization Opportunities:**  
-  - ***Imbalances between sales trends and stock levels*** highlight areas for rebalancing, particularly increasing investment in fast-moving sizes and colors, and reducing overstock in slow-moving categories.
+  - **Imbalances between sales trends and stock levels** highlight areas for rebalancing, particularly increasing investment in fast-moving sizes and colors, and reducing overstock in slow-moving categories.
 
 
 **For visual references, see the included Power BI dashboard and the Amazon Sales Report PDF.**
@@ -163,25 +163,30 @@ The project follows a structured, end-to-end data analytics workflow to derive a
 ## G. Recommendations
 
 ### Inventory Optimisation
-- Reduce Overstock in Ethnic Wear: Kurtas (48% of stock) and Kurta Sets (21%) are overrepresented. Rebalance inventory to allocate 15–20% of stock to bottoms (pants, leggings) and western categories (dresses, jumpsuits) to meet growing urban demand.
-- Introduce Plus-Size Collections: Expand 4XL–6XL stock from <3% to 10–15% of inventory. Partner with influencers/designers to tap into India’s underserved $10B plus-size apparel market.
-- Liquidate Low-Demand Colors: Clear stagnant stock in niche colors (Coral Pink, Aqua Green) via flash sales. Redirect capital to high-demand colors: Black (22K units sold), Blue (19K), and Pink (21K).
+- **Reduce Overstock in Ethnic Wear**: Kurtas (48% of stock) and Kurta Sets (21%) are overrepresented. Rebalance inventory to allocate 15–20% of stock to bottoms (pants, leggings) and western categories (dresses, jumpsuits) to meet growing urban demand.
+  
+- **Introduce Plus-Size Collections**: Expand 4XL–6XL stock from <3% to 10–15% of inventory. Partner with influencers/designers to tap into India’s underserved $10B plus-size apparel market.
+  
+- **Liquidate Low-Demand Colors**: Clear stagnant stock in niche colors (Coral Pink, Aqua Green) via flash sales. Redirect capital to high-demand colors: Black (22K units sold), Blue (19K), and Pink (21K).
 
 ### Demand Forecasting and Procurement
-- Align Procurement with Festive Peaks: Pre-stock ethnic wear 8–10 weeks before Diwali (Oct–Nov) and Holi (March) to avoid stockouts, leveraging Amazon’s FBA demand forecasting tools.
-- Mitigate May–June Slump: Launch monsoon-themed promotions (raincoats, quick-dry fabrics) and bundle ethnic wear with accessories to offset seasonal dips.
+- **Align Procurement with Festive Peaks**: Pre-stock ethnic wear 8–10 weeks before Diwali (Oct–Nov) and Holi (March) to avoid stockouts, leveraging Amazon’s FBA demand forecasting tools.
+  
+- **Mitigate May–June Slump**: Launch monsoon-themed promotions (raincoats, quick-dry fabrics) and bundle ethnic wear with accessories to offset seasonal dips.
 
 ### Data-driven Pricing
-- Dynamic Pricing for Peak Months: Increase margins by 10–15% on ethnic wear during festivals (Oct/Nov, March) using AI tools like Revionics.
-- Discount Aging Stock Automatically: Set rules to auto-apply 20% discounts on items unsold for 60+ days (e.g., Shararas, Lehenga Cholis).
+- **Dynamic Pricing for Peak Months**: Increase margins by 10–15% on ethnic wear during festivals (Oct/Nov, March) using AI tools like Revionics.
+  
+- **Discount Aging Stock Automatically**: Set rules to auto-apply 20% discounts on items unsold for 60+ days (e.g., Shararas, Lehenga Cholis).
 
 ### Operational Efficiency
-- Adopt ABC Analysis:
+- **Adopt ABC Analysis**:
 A (20% SKUs, 70% revenue): Kurta sets, M/L/XL sizes (restock weekly).
 B (30% SKUs, 20% revenue): Dresses, S/XXL sizes (restock biweekly).
 C (50% SKUs, 10% revenue): Niche colors/sizes (JIT restocking).
-- Implement Real-Time Tracking: Use Amazon’s IPI dashboard + third-party tools (Unicommerce) to sync inventory across channels and avoid stockouts/overstock penalties.
-- Target High-Potential Regions: Allocate 25% of marketing budget to underpenetrated eastern states (West Bengal, Odisha) where e-commerce adoption is rising but revenue contribution is low (<$53K).
+
+- **Implement Real-Time Tracking**: Use Amazon’s IPI dashboard + third-party tools (Unicommerce) to sync inventory across channels and avoid stockouts/overstock penalties.
+- **Target High-Potential Regions**: Allocate 25% of marketing budget to underpenetrated eastern states (West Bengal, Odisha) where e-commerce adoption is rising but revenue contribution is low (<$53K).
 
 ## H. Future Work: Extensions and Improvements
 
