@@ -160,7 +160,30 @@ The project follows a structured, end-to-end data analytics workflow to derive a
 
 **For visual references, see the included Power BI dashboard and the Amazon Sales Report PDF.**
 
-## G. Future Work: Extensions and Improvements
+## G. Recommendations
+
+### Inventory Optimisation
+- Reduce Overstock in Ethnic Wear: Kurtas (48% of stock) and Kurta Sets (21%) are overrepresented. Rebalance inventory to allocate 15–20% of stock to bottoms (pants, leggings) and western categories (dresses, jumpsuits) to meet growing urban demand.
+- Introduce Plus-Size Collections: Expand 4XL–6XL stock from <3% to 10–15% of inventory. Partner with influencers/designers to tap into India’s underserved $10B plus-size apparel market.
+- Liquidate Low-Demand Colors: Clear stagnant stock in niche colors (Coral Pink, Aqua Green) via flash sales. Redirect capital to high-demand colors: Black (22K units sold), Blue (19K), and Pink (21K).
+
+### Demand Forecasting and Procurement
+- Align Procurement with Festive Peaks: Pre-stock ethnic wear 8–10 weeks before Diwali (Oct–Nov) and Holi (March) to avoid stockouts, leveraging Amazon’s FBA demand forecasting tools.
+- Mitigate May–June Slump: Launch monsoon-themed promotions (raincoats, quick-dry fabrics) and bundle ethnic wear with accessories to offset seasonal dips.
+
+### Data-driven Pricing
+- Dynamic Pricing for Peak Months: Increase margins by 10–15% on ethnic wear during festivals (Oct/Nov, March) using AI tools like Revionics.
+- Discount Aging Stock Automatically: Set rules to auto-apply 20% discounts on items unsold for 60+ days (e.g., Shararas, Lehenga Cholis).
+
+### Operational Efficiency
+- Adopt ABC Analysis:
+A (20% SKUs, 70% revenue): Kurta sets, M/L/XL sizes (restock weekly).
+B (30% SKUs, 20% revenue): Dresses, S/XXL sizes (restock biweekly).
+C (50% SKUs, 10% revenue): Niche colors/sizes (JIT restocking).
+- Implement Real-Time Tracking: Use Amazon’s IPI dashboard + third-party tools (Unicommerce) to sync inventory across channels and avoid stockouts/overstock penalties.
+- Target High-Potential Regions: Allocate 25% of marketing budget to underpenetrated eastern states (West Bengal, Odisha) where e-commerce adoption is rising but revenue contribution is low (<$53K).
+
+## H. Future Work: Extensions and Improvements
 
 - **Expand Data Coverage:** The current analysis is limited by the short duration of the Customer Sales data (only 3 months) and the relatively small volume of B2B sales data. Extending the data timeline and increasing the sample size would improve the robustness and reliability of insights.
 
